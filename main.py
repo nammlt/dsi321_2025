@@ -37,13 +37,13 @@ def news(
 
 
 def main():
-    topic = "alternative materials for construction"
+    topic = "construction materials"
     # Fetch up to 20 results
     articles = news(topic, max_results=20)
 
     # Define CSV filename and headers
     csv_file = "news_alternative_materials.csv"
-    fieldnames = ["title", "href", "snippet"]
+    fieldnames = ["date", "title", "content"]
 
     # Write results to CSV
     with open(csv_file, mode="w", newline="", encoding="utf-8") as file:
@@ -51,9 +51,9 @@ def main():
         writer.writeheader()
         for article in articles:
             writer.writerow({
+                "date": article.get("date", ""),
                 "title": article.get("title", ""),
-                "href": article.get("href", ""),
-                "snippet": article.get("body", ""),
+                "content": article.get("body", ""),
             })
 
     print(f"Saved {len(articles)} articles to {csv_file}")
