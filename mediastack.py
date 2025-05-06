@@ -47,7 +47,7 @@ def scrape_topics_to_csv(
     output_file: str = "media_multiple_topics.csv",
     languages: str = "en",
     countries: str = "us,gb",
-    limit: int = 50
+    limit: int = 100
 ) -> None:
     """
     Scrape multiple topics and save all articles to a single CSV with an extra 'topic' column.
