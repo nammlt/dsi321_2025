@@ -1,0 +1,40 @@
+# 1. เลือก Python base image
+FROM python:3.10-slim
+
+# 2. ติดตั้งระบบพื้นฐาน
+RUN apt-get update && apt-get install -y \
+    wget \
+    curl \
+    ca-certificates \
+    fonts-liberation \
+    libasound2 \
+    libatk-bridge2.0-0 \
+    libatk1.0-0 \
+    libcups2 \
+    libdbus-1-3 \
+    libdrm2 \
+    libgbm1 \
+    libgtk-3-0 \
+    libnspr4 \
+    libnss3 \
+    libx11-xcb1 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxrandr2 \
+    xdg-utils \
+    && apt-get clean
+
+# 3. ติดตั้ง pip dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 4. ติดตั้ง Playwright + dependencies
+RUN pip install playwright
+RUN playwright install --with-deps
+
+# 5. Copy โค้ดของคุณเข้าไปใน container
+COPY . /app
+WORKDIR /app
+
+# 6. รันโปรแกรม
+CMD ["python", "main.py"]

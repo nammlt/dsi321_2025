@@ -1,31 +1,20 @@
-# scrape_news_csv.py
-# Script to scrape DuckDuckGo news articles on a specific topic and save to CSV
+# scrape_news_csv_prefect.py
+# Prefect-enhanced script to scrape DuckDuckGo news articles and save to CSV
 
+from prefect import flow, task
 import csv
 from duckduckgo_search import DDGS
 
 
-def news(
+@task
+def fetch_news(
     keywords: str,
     region: str = "wt-wt",
     safesearch: str = "moderate",
     timelimit: str | None = None,
-    max_results: int | None = None,
+    max_results: int | None = 20,
 ) -> list[dict[str, str]]:
-    """DuckDuckGo news search. Query params: https://duckduckgo.com/params.
-
-    Args:
-        keywords: keywords for query.
-        region: wt-wt, us-en, uk-en, ru-ru, etc. Defaults to "wt-wt".
-        safesearch: on, moderate, off. Defaults to "moderate".
-        timelimit: d, w, m. Defaults to None.
-        max_results: max number of results. If None, returns results only from the first response. Defaults to None.
-
-    Returns:
-        List of dictionaries with news search results.
-    """
     with DDGS() as ddgs:
-        # Use the news() method to fetch news results
         results = ddgs.news(
             keywords,
             region=region,
@@ -36,16 +25,9 @@ def news(
     return results
 
 
-def main():
-    topic = "construction materials"
-    # Fetch up to 20 results
-    articles = news(topic, max_results=20)
-
-    # Define CSV filename and headers
-    csv_file = "news_alternative_materials.csv"
+@task
+def save_to_csv(articles: list[dict[str, str]], csv_file: str):
     fieldnames = ["date", "title", "content"]
-
-    # Write results to CSV
     with open(csv_file, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
@@ -55,9 +37,14 @@ def main():
                 "title": article.get("title", ""),
                 "content": article.get("body", ""),
             })
-
     print(f"Saved {len(articles)} articles to {csv_file}")
 
 
+@flow
+def duckduckgo_news_pipeline(topic: str = "construction materials", max_results: int = 20):
+    articles = fetch_news(topic, max_results=max_results)
+    save_to_csv(articles, "news_alternative_materials.csv")
+
+
 if __name__ == "__main__":
-    main()
+    duckduckgo_news_pipeline()
