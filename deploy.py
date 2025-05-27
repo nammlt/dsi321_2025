@@ -9,7 +9,7 @@ import re, string
 import pandera as pa
 from pandera import Column, Check
 
-# ดาวน์โหลด stopwords ครั้งแรก (จะไม่รันซ้ำถ้ามีแล้ว)
+# Download stopwords firsttime 
 nltk.download('stopwords')
 
 # อ่าน config จาก env
@@ -40,14 +40,14 @@ def read_and_validate():
 
     df = pd.read_parquet(s3path, storage_options=storage_opts, engine="pyarrow")
 
-    # แปลง timestamp
+    # timestamp
     df['fetched_at'] = pd.to_datetime(df['fetched_at'], errors='coerce')
 
-    # แปลง categorical เป็น string แล้วเป็น int
+    # categorical to string and int
     for col in ['year', 'month', 'day']:
         df[col] = df[col].astype(str).astype(int)
 
-    # ตรวจ schema
+    # Check schema
     schema = pa.DataFrameSchema({
         "title"     : Column(pa.String),
         "link"      : Column(pa.String),
@@ -84,4 +84,4 @@ try:
     st.dataframe(df[['title', 'keyword', 'year', 'month', 'day']])
 
 except Exception as e:
-    st.error(f"❌ {e}")
+    st.error(f"{error}")

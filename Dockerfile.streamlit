@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# ดาวน์โหลด NLTK stopwords
+# NLTK stopwords
 RUN python - << 'EOF'
 import nltk
 nltk.download('stopwords')

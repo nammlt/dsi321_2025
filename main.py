@@ -4,7 +4,7 @@ from datetime import datetime
 import os
 from prefect import task, flow
 
-# คำค้นหาหลายคำที่เกี่ยวกับ alternative construction materials
+# search for alternative construction materials
 search_keywords = [
     "construction materials",
     "building materials",

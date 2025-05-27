@@ -30,12 +30,12 @@ RUN pip install feedparser
 
 COPY entrypoint.sh /opt/prefect/entrypoint.sh
 
-# เพิ่ม permission ให้ entrypoint.sh
+# permission for entrypoint.sh
 RUN chmod +x /opt/prefect/entrypoint.sh
 
 COPY main.py /root/flows/main.py
 COPY main_2.py /root/flows/main_2.py
 COPY config_path.py /root/flows/config_path.py
 
-# container เริ่มต้นด้วย entrypoint นี้
+# container start at entrypoint 
 ENTRYPOINT ["/opt/prefect/entrypoint.sh"]

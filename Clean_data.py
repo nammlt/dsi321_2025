@@ -3,11 +3,11 @@ from nltk.corpus import stopwords
 import nltk
 import re
 
-# ดาวน์โหลด stopwords
+# Download stopwords
 nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
-# เพิ่ม custom stopwords
+# custom stopwords
 custom_stopwords = {
     # ข่าวและสื่อ
     "news", "update", "latest", "breaking", "read", "watch", "live", "video",
@@ -36,30 +36,30 @@ custom_stopwords = {
 }
 stop_words.update(custom_stopwords)
 
-# รายชื่อองค์กร/เว็บไซต์ที่ต้องลบ
+# News Organiztion and useless word
 remove_words = [
     "BBC", "DW", "ResearchGate", "Dezeen", "HowStuffWorks",
     "Power Line Magazine", "ET EnergyWorld", "trend", "promoting", "about", "About", "and", "use"
 ]
 
-# ฟังก์ชันลบชื่อองค์กร
+# Function
 def remove_companies(text):
     for word in remove_words:
         text = re.sub(rf"\b{re.escape(word)}\b", "", text)
     return re.sub(r"\s{2,}", " ", text).strip()
 
-# โหลดไฟล์ CSV
+# Load CSV
 df = pd.read_csv("data/scrap_data.csv", header=0, encoding='utf-8-sig')
 print("📄 Columns in file:", df.columns.tolist())
 
-# ลบแถวที่ไม่มี title หรือ keyword
+# Remove rows no title or keyword
 df = df.dropna(subset=["title", "keyword"])
 
-# ประมวลผล
+# Processing
 filtered_rows = []
 for _, row in df.iterrows():
     title = str(row["title"]).lower()
-    title = remove_companies(title)  # ลบชื่อองค์กรหลังจากแปลง lowercase
+    title = remove_companies(title)  # Delete News Organiztion after do lowercase
     keyword = row["keyword"]
 
     words = title.split()
@@ -71,7 +71,23 @@ for _, row in df.iterrows():
         "keyword": keyword
     })
 
-# สร้างไฟล์ใหม่
+# Build New File
 filtered_df = pd.DataFrame(filtered_rows)
 filtered_df.to_csv("data/filtered_by_topic.csv", index=False, encoding="utf-8")
-print("✅ บันทึกไฟล์เรียบร้อยแล้ว")
+print("Successful File")
+
+# object to string for prevent 'object' dtype
+for col in filtered_df.columns:
+    if filtered_df[col].dtype == 'object':
+        filtered_df[col] = filtered_df[col].astype(str)
+
+# Remove Duplicates (based on all columns)
+filtered_df = filtered_df.drop_duplicates()
+
+# Scan dtype (No object should be str)
+print("\nประเภทข้อมูลหลังแปลง:")
+print(filtered_df.dtypes)
+
+# New Csv
+filtered_df.to_csv("data/filtered_by_topic_cleaned.csv", index=False, encoding="utf-8")
+print("บันทึกไฟล์ที่ลบ object และข้อมูลซ้ำเรียบร้อยแล้ว")
