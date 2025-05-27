@@ -1,0 +1,832 @@
+
+    348 │   kwargs = kwargs.copy()
+    349 │   for bit in reversed(bits):
+    350 │   │   protocol = kwargs.pop("protocol", None) or split_protocol(bit)[0] or "
+  ❱ 351 │   │   cls = get_filesystem_class(protocol)
+    352 │   │   extra_kwargs = cls._get_kwargs_from_urls(bit)
+    353 │   │   kws = kwargs.pop(protocol, {})
+    354 │   │   if bit is bits[0]:
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\fsspec\registry.py:251 in
+  get_filesystem_class
+
+    248 │   │   try:
+    249 │   │   │   register_implementation(protocol, _import_class(bit["class"]))
+    250 │   │   except ImportError as e:
+  ❱ 251 │   │   │   raise ImportError(bit.get("err")) from e
+    252 │   cls = registry[protocol]
+    253 │   if getattr(cls, "protocol", None) in ("abstract", None):
+    254 │   │   cls.protocol = protocol
+────────────────────────────────────────────────────────────────────────────────────────
+ImportError: Install s3fs to access S3
+  Stopping...
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>pip install -r requirements.txt
+Requirement already satisfied: aiosqlite==0.21.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 1)) (0.21.0)
+Requirement already satisfied: alembic==1.15.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 2)) (1.15.2)
+Requirement already satisfied: annotated-types==0.7.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 3)) (0.7.0)
+Requirement already satisfied: anyio==4.9.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 4)) (4.9.0)
+Requirement already satisfied: apprise==1.9.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 5)) (1.9.3)
+Requirement already satisfied: asgi-lifespan==2.1.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 6)) (2.1.0)
+Requirement already satisfied: asyncpg==0.30.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 7)) (0.30.0)
+Requirement already satisfied: attrs==25.3.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 8)) (25.3.0)
+Requirement already satisfied: beautifulsoup4==4.13.4 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 9)) (4.13.4)
+Requirement already satisfied: cachetools==5.5.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 10)) (5.5.2)
+Requirement already satisfied: certifi==2025.4.26 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 11)) (2025.4.26)
+Requirement already satisfied: cffi==1.17.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 12)) (1.17.1)
+Requirement already satisfied: charset-normalizer==3.4.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 13)) (3.4.2)
+Requirement already satisfied: click==8.1.8 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 14)) (8.1.8)
+Requirement already satisfied: cloudpickle==3.1.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 15)) (3.1.1)
+Requirement already satisfied: colorama==0.4.6 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 16)) (0.4.6)
+Requirement already satisfied: contourpy==1.3.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 17)) (1.3.2)
+Requirement already satisfied: coolname==2.2.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 18)) (2.2.0)
+Requirement already satisfied: cryptography==44.0.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 19)) (44.0.3)
+Requirement already satisfied: cycler==0.12.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 20)) (0.12.1)
+Requirement already satisfied: dateparser==1.2.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 21)) (1.2.1)
+Requirement already satisfied: Deprecated==1.2.18 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 22)) (1.2.18)
+Requirement already satisfied: docker==7.1.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 23)) (7.1.0)
+Requirement already satisfied: exceptiongroup==1.3.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 24)) (1.3.0)
+Requirement already satisfied: fastapi==0.115.12 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 25)) (0.115.12)
+Requirement already satisfied: feedparser==6.0.11 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 26)) (6.0.11)
+Requirement already satisfied: fonttools==4.58.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 27)) (4.58.0)
+Requirement already satisfied: fsspec==2025.3.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 28)) (2025.3.2)
+Requirement already satisfied: graphviz==0.20.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 29)) (0.20.3)
+Requirement already satisfied: greenlet==3.2.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 30)) (3.2.2)
+Requirement already satisfied: griffe==1.7.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 31)) (1.7.3)
+Requirement already satisfied: h11==0.16.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 32)) (0.16.0)
+Requirement already satisfied: h2==4.2.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 33)) (4.2.0)
+Requirement already satisfied: hpack==4.1.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 34)) (4.1.0)
+Requirement already satisfied: httpcore==1.0.9 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 35)) (1.0.9)
+Requirement already satisfied: httpx==0.28.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 36)) (0.28.1)
+Requirement already satisfied: humanize==4.12.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 37)) (4.12.3)
+Requirement already satisfied: hyperframe==6.1.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 38)) (6.1.0)
+Requirement already satisfied: idna==3.10 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 39)) (3.10)
+Requirement already satisfied: importlib_metadata==8.6.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 40)) (8.6.1)
+Requirement already satisfied: Jinja2==3.1.6 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 41)) (3.1.6)
+Requirement already satisfied: jinja2-humanize-extension==0.4.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 42)) (0.4.0)
+Requirement already satisfied: joblib==1.5.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 43)) (1.5.0)
+Requirement already satisfied: jsonpatch==1.33 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 44)) (1.33)
+Requirement already satisfied: jsonpointer==3.0.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 45)) (3.0.0)
+Requirement already satisfied: jsonschema==4.23.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 46)) (4.23.0)
+Requirement already satisfied: jsonschema-specifications==2025.4.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 47)) (2025.4.1)
+Requirement already satisfied: kiwisolver==1.4.8 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 48)) (1.4.8)
+Requirement already satisfied: Mako==1.3.10 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 49)) (1.3.10)
+Requirement already satisfied: Markdown==3.8 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 50)) (3.8)
+Requirement already satisfied: markdown-it-py==3.0.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 51)) (3.0.0)
+Requirement already satisfied: MarkupSafe==3.0.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 52)) (3.0.2)
+Requirement already satisfied: matplotlib==3.10.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 53)) (3.10.3)
+Requirement already satisfied: mdurl==0.1.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 54)) (0.1.2)
+Requirement already satisfied: nltk==3.9.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 55)) (3.9.1)
+Requirement already satisfied: numpy==2.2.5 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 56)) (2.2.5)
+Requirement already satisfied: oauthlib==3.2.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 57)) (3.2.2)
+Requirement already satisfied: opentelemetry-api==1.33.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 58)) (1.33.0)
+Requirement already satisfied: orjson==3.10.18 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 59)) (3.10.18)
+Collecting packaging==25.0 (from -r requirements.txt (line 60))
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Requirement already satisfied: pandas==2.2.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 61)) (2.2.3)
+Requirement already satisfied: pathspec==0.12.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 62)) (0.12.1)
+Requirement already satisfied: pillow==11.2.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 63)) (11.2.1)
+Requirement already satisfied: prefect==3.4.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 64)) (3.4.1)
+Requirement already satisfied: prometheus_client==0.21.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 65)) (0.21.1)
+Requirement already satisfied: pycparser==2.22 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 66)) (2.22)
+Requirement already satisfied: pydantic==2.11.4 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 67)) (2.11.4)
+Requirement already satisfied: pydantic-extra-types==2.10.4 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 68)) (2.10.4)
+Requirement already satisfied: pydantic-settings==2.9.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 69)) (2.9.1)
+Requirement already satisfied: pydantic_core==2.33.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 70)) (2.33.2)
+Requirement already satisfied: Pygments==2.19.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 71)) (2.19.1)
+Requirement already satisfied: pyparsing==3.2.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 72)) (3.2.3)
+Requirement already satisfied: python-dateutil==2.9.0.post0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 73)) (2.9.0.post0)
+Requirement already satisfied: python-dotenv==1.1.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 74)) (1.1.0)
+Requirement already satisfied: python-slugify==8.0.4 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 75)) (8.0.4)
+Requirement already satisfied: python-socks==2.7.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 76)) (2.7.1)
+Requirement already satisfied: pytz==2025.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 77)) (2025.2)
+Requirement already satisfied: PyYAML==6.0.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 78)) (6.0.2)
+Requirement already satisfied: readchar==4.2.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 79)) (4.2.1)
+Requirement already satisfied: referencing==0.36.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 80)) (0.36.2)
+Requirement already satisfied: regex==2024.11.6 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 81)) (2024.11.6)
+Requirement already satisfied: requests==2.32.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 82)) (2.32.3)
+Requirement already satisfied: requests-oauthlib==2.0.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 83)) (2.0.0)
+Requirement already satisfied: rfc3339-validator==0.1.4 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 84)) (0.1.4)
+Requirement already satisfied: rich==14.0.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 85)) (14.0.0)
+Requirement already satisfied: rpds-py==0.24.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 86)) (0.24.0)
+Requirement already satisfied: ruamel.yaml==0.18.10 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 87)) (0.18.10)
+Requirement already satisfied: sgmllib3k==1.0.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 88)) (1.0.0)
+Requirement already satisfied: shellingham==1.5.4 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 89)) (1.5.4)
+Requirement already satisfied: six==1.17.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 90)) (1.17.0)
+Requirement already satisfied: sniffio==1.3.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 91)) (1.3.1)
+Requirement already satisfied: soupsieve==2.7 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 92)) (2.7)
+Requirement already satisfied: SQLAlchemy==2.0.40 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 93)) (2.0.40)
+Requirement already satisfied: starlette==0.46.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 94)) (0.46.2)
+Requirement already satisfied: text-unidecode==1.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 95)) (1.3)
+Requirement already satisfied: toml==0.10.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 96)) (0.10.2)
+Requirement already satisfied: tqdm==4.67.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 97)) (4.67.1)
+Requirement already satisfied: typer==0.15.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 98)) (0.15.3)
+Requirement already satisfied: typing-inspection==0.4.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 99)) (0.4.0)
+Requirement already satisfied: typing_extensions==4.13.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 100)) (4.13.2)
+Requirement already satisfied: tzdata==2025.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 101)) (2025.2)
+Requirement already satisfied: tzlocal==5.3.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 102)) (5.3.1)
+Requirement already satisfied: ujson==5.10.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 103)) (5.10.0)
+Collecting urllib3<2.1.0,>=1.26.0 (from -r requirements.txt (line 104))
+  Downloading urllib3-2.0.7-py3-none-any.whl.metadata (6.6 kB)
+Requirement already satisfied: uuid7==0.1.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 105)) (0.1.0)
+Requirement already satisfied: uv==0.7.3 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 106)) (0.7.3)
+Requirement already satisfied: uvicorn==0.34.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 107)) (0.34.2)
+Requirement already satisfied: websockets==15.0.1 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 108)) (15.0.1)
+Requirement already satisfied: whenever==0.8.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 109)) (0.8.0)
+Requirement already satisfied: wordcloud==1.9.4 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 110)) (1.9.4)
+Requirement already satisfied: wrapt==1.17.2 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 111)) (1.17.2)
+Requirement already satisfied: zipp==3.21.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 112)) (3.21.0)
+Collecting lakefs==0.10.0 (from -r requirements.txt (line 113))
+  Downloading lakefs-0.10.0-py3-none-any.whl.metadata (4.0 kB)
+Requirement already satisfied: pyarrow==20.0.0 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from -r requirements.txt (line 114)) (20.0.0)
+Collecting s3fs==2025.3.2 (from -r requirements.txt (line 115))
+  Downloading s3fs-2025.3.2-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: pywin32>=304 in c:\users\dsitu\desktop\dsi321_2025\venv\lib\site-packages (from docker==7.1.0->-r requirements.txt (line 23)) (310)
+Collecting lakefs-sdk<2,>=1.50 (from lakefs==0.10.0->-r requirements.txt (line 113))
+  Downloading lakefs_sdk-1.54.0-py3-none-any.whl.metadata (41 kB)
+Collecting aiobotocore<3.0.0,>=2.5.4 (from s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading aiobotocore-2.22.0-py3-none-any.whl.metadata (24 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading aiohttp-3.11.18-cp313-cp313-win_amd64.whl.metadata (8.0 kB)
+Collecting aioitertools<1.0.0,>=0.5.1 (from aiobotocore<3.0.0,>=2.5.4->s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading aioitertools-0.12.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting botocore<1.37.4,>=1.37.2 (from aiobotocore<3.0.0,>=2.5.4->s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading botocore-1.37.3-py3-none-any.whl.metadata (5.7 kB)
+Collecting jmespath<2.0.0,>=0.7.1 (from aiobotocore<3.0.0,>=2.5.4->s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading jmespath-1.0.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting multidict<7.0.0,>=6.0.0 (from aiobotocore<3.0.0,>=2.5.4->s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading multidict-6.4.3-cp313-cp313-win_amd64.whl.metadata (5.5 kB)
+Collecting aiohappyeyeballs>=2.3.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp!=4.0.0a0,!=4.0.0a1->s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading aiosignal-1.3.2-py2.py3-none-any.whl.metadata (3.8 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading frozenlist-1.6.0-cp313-cp313-win_amd64.whl.metadata (16 kB)
+Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading propcache-0.3.1-cp313-cp313-win_amd64.whl.metadata (11 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->s3fs==2025.3.2->-r requirements.txt (line 115))
+  Downloading yarl-1.20.0-cp313-cp313-win_amd64.whl.metadata (74 kB)
+Collecting aenum (from lakefs-sdk<2,>=1.50->lakefs==0.10.0->-r requirements.txt (line 113))
+  Downloading aenum-3.1.16-py3-none-any.whl.metadata (3.8 kB)
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Downloading lakefs-0.10.0-py3-none-any.whl (55 kB)
+Downloading s3fs-2025.3.2-py3-none-any.whl (30 kB)
+Downloading urllib3-2.0.7-py3-none-any.whl (124 kB)
+Downloading aiobotocore-2.22.0-py3-none-any.whl (78 kB)
+Downloading aiohttp-3.11.18-cp313-cp313-win_amd64.whl (437 kB)
+Downloading lakefs_sdk-1.54.0-py3-none-any.whl (212 kB)
+Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Downloading aioitertools-0.12.0-py3-none-any.whl (24 kB)
+Downloading aiosignal-1.3.2-py2.py3-none-any.whl (7.6 kB)
+Downloading botocore-1.37.3-py3-none-any.whl (13.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 4.9 MB/s eta 0:00:00
+Downloading frozenlist-1.6.0-cp313-cp313-win_amd64.whl (119 kB)
+Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+Downloading multidict-6.4.3-cp313-cp313-win_amd64.whl (38 kB)
+Downloading propcache-0.3.1-cp313-cp313-win_amd64.whl (44 kB)
+Downloading yarl-1.20.0-cp313-cp313-win_amd64.whl (92 kB)
+Downloading aenum-3.1.16-py3-none-any.whl (165 kB)
+Installing collected packages: aenum, urllib3, propcache, packaging, multidict, jmespath, frozenlist, aioitertools, aiohappyeyeballs, yarl, botocore, aiosignal, lakefs-sdk, aiohttp, lakefs, aiobotocore, s3fs
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.4.0
+    Uninstalling urllib3-2.4.0:
+      Successfully uninstalled urllib3-2.4.0
+  Attempting uninstall: packaging
+    Found existing installation: packaging 24.2
+    Uninstalling packaging-24.2:
+      Successfully uninstalled packaging-24.2
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+streamlit 1.45.1 requires packaging<25,>=20, but you have packaging 25.0 which is incompatible.
+Successfully installed aenum-3.1.16 aiobotocore-2.22.0 aiohappyeyeballs-2.6.1 aiohttp-3.11.18 aioitertools-0.12.0 aiosignal-1.3.2 botocore-1.37.3 frozenlist-1.6.0 jmespath-1.0.1 lakefs-0.10.0 lakefs-sdk-1.54.0 multidict-6.4.3 packaging-25.0 propcache-0.3.1 s3fs-2025.3.2 urllib3-2.0.7 yarl-1.20.0
+
+[notice] A new release of pip is available: 24.3.1 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>streamlit run streamlit.py     
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.25.212.215:8501
+
+────────────────────────── Traceback (most recent call last) ───────────────────────────
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiohttp\connector.py:1357
+  in _create_direct_connection
+
+    1354 │   │   │   # Cancelling this lookup should not cancel the underlying lookup
+    1355 │   │   │   #  or else the cancel event will get broadcast to all the waiters
+    1356 │   │   │   #  across all connections.
+  ❱ 1357 │   │   │   hosts = await self._resolve_host(host, port, traces=traces)
+    1358 │   │   except OSError as exc:
+    1359 │   │   │   if exc.errno is None and isinstance(exc, asyncio.TimeoutError):
+    1360 │   │   │   │   raise
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiohttp\connector.py:995
+  in _resolve_host
+
+     992 │   │   │   resolved_host_task.add_done_callback(self._resolve_host_tasks.dis
+     993 │   │   
+     994 │   │   try:
+  ❱  995 │   │   │   return await asyncio.shield(resolved_host_task)
+     996 │   │   except asyncio.CancelledError:
+     997 │   │   │   
+     998 │   │   │   def drop_exception(fut: "asyncio.Future[List[ResolveResult]]") ->
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiohttp\connector.py:1026
+  in _resolve_host_with_throttle
+
+    1023 │   │   │   │   for trace in traces:
+    1024 │   │   │   │   │   await trace.send_dns_resolvehost_start(host)
+    1025 │   │   │   
+  ❱ 1026 │   │   │   addrs = await self._resolver.resolve(host, port, family=self._fam
+    1027 │   │   │   if traces:
+    1028 │   │   │   │   for trace in traces:
+    1029 │   │   │   │   │   await trace.send_dns_resolvehost_end(host)
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiohttp\resolver.py:39 in
+  resolve
+
+     36 │   async def resolve(
+     37 │   │   self, host: str, port: int = 0, family: socket.AddressFamily = socket.
+     38 │   ) -> List[ResolveResult]:
+  ❱  39 │   │   infos = await self._loop.getaddrinfo(
+     40 │   │   │   host,
+     41 │   │   │   port,
+     42 │   │   │   type=socket.SOCK_STREAM,
+
+  C:\Users\DSITU\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py:93
+  4 in getaddrinfo
+
+     931 │   │   else:
+     932 │   │   │   getaddr_func = socket.getaddrinfo
+     933 │   │   
+  ❱  934 │   │   return await self.run_in_executor(
+     935 │   │   │   None, getaddr_func, host, port, family, type, proto, flags)
+     936 │   
+     937 │   async def getnameinfo(self, sockaddr, flags=0):
+
+  C:\Users\DSITU\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread
+  .py:59 in run
+
+     56 │   │   │   return
+     57 │   │   
+     58 │   │   try:
+  ❱  59 │   │   │   result = self.fn(*self.args, **self.kwargs)
+     60 │   │   except BaseException as exc:
+     61 │   │   │   self.future.set_exception(exc)
+     62 │   │   │   # Break a reference cycle with the exception 'exc'
+
+  C:\Users\DSITU\AppData\Local\Programs\Python\Python313\Lib\socket.py:975 in
+  getaddrinfo
+
+    972 │   # We override this function since we want to translate the numeric family
+    973 │   # and socket type values to enum constants.
+    974 │   addrlist = []
+  ❱ 975 │   for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+    976 │   │   af, socktype, proto, canonname, sa = res
+    977 │   │   addrlist.append((_intenum_converter(af, AddressFamily),
+    978 │   │   │   │   │   │    _intenum_converter(socktype, SocketKind),
+────────────────────────────────────────────────────────────────────────────────────────
+gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+────────────────────────── Traceback (most recent call last) ───────────────────────────
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\httpsession.py
+  :222 in send
+
+    219 │   │   │   
+    220 │   │   │   url = URL(url, encoded=True)
+    221 │   │   │   session = await self._get_session(proxy_url)
+  ❱ 222 │   │   │   response = await session.request(
+    223 │   │   │   │   request.method,
+    224 │   │   │   │   url=url,
+    225 │   │   │   │   chunked=self._chunked(headers_),
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiohttp\client.py:703 in
+  _request
+
+     700 │   │   │   │   │   
+     701 │   │   │   │   │   # connection timeout
+     702 │   │   │   │   │   try:
+  ❱  703 │   │   │   │   │   │   conn = await self._connector.connect(
+     704 │   │   │   │   │   │   │   req, traces=traces, timeout=real_timeout
+     705 │   │   │   │   │   │   )
+     706 │   │   │   │   │   except asyncio.TimeoutError as exc:
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiohttp\connector.py:548
+  in connect
+
+     545 │   │   │   │   if traces:
+     546 │   │   │   │   │   for trace in traces:
+     547 │   │   │   │   │   │   await trace.send_connection_create_start()
+  ❱  548 │   │   │   │   proto = await self._create_connection(req, traces, timeout)
+     549 │   │   │   │   if traces:
+     550 │   │   │   │   │   for trace in traces:
+     551 │   │   │   │   │   │   await trace.send_connection_create_end()
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiohttp\connector.py:1056
+  in _create_connection
+
+    1053 │   │   if req.proxy:
+    1054 │   │   │   _, proto = await self._create_proxy_connection(req, traces, timeo
+    1055 │   │   else:
+  ❱ 1056 │   │   │   _, proto = await self._create_direct_connection(req, traces, time
+    1057 │   │   
+    1058 │   │   return proto
+    1059 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiohttp\connector.py:1363
+  in _create_direct_connection
+
+    1360 │   │   │   │   raise
+    1361 │   │   │   # in case of proxy it is not ClientProxyConnectionError
+    1362 │   │   │   # it is problem of resolving proxy ip itself
+  ❱ 1363 │   │   │   raise ClientConnectorDNSError(req.connection_key, exc) from exc
+    1364 │   │   
+    1365 │   │   last_exc: Optional[Exception] = None
+    1366 │   │   addr_infos = self._convert_hosts_to_addr_infos(hosts)
+────────────────────────────────────────────────────────────────────────────────────────
+ClientConnectorDNSError: Cannot connect to host lakefsdb:8000 ssl:default [getaddrinfo
+failed]
+
+During handling of the above exception, another exception occurred:
+
+────────────────────────── Traceback (most recent call last) ───────────────────────────
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\streamlit\runtime\scriptru
+  nner\exec_code.py:121 in exec_func_with_error_handling
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\streamlit\runtime\scriptru
+  nner\script_runner.py:645 in code_to_exec
+
+  C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py:26 in <module>
+
+    23 │   )
+    24 │   return df
+    25 
+  ❱ 26 df = read_from_lakefs()
+    27 
+    28 st.write(df)
+    29 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\streamlit\runtime\caching\
+  cache_utils.py:219 in __call__
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\streamlit\runtime\caching\
+  cache_utils.py:261 in _get_or_create_cached_value
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\streamlit\runtime\caching\
+  cache_utils.py:320 in _handle_cache_miss
+
+  C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py:19 in read_from_lakefs
+
+    16 │   │   │   "endpoint_url": "http://lakefsdb:8000"
+    17 │   │   }
+    18 │   }
+  ❱ 19 │   df = pd.read_parquet(
+    20 │   │   lakefs_s3_path,
+    21 │   │   storage_options=storage_options,
+    22 │   │   engine='pyarrow',
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\pandas\io\parquet.py:667
+  in read_parquet
+
+    664 │   │   use_nullable_dtypes = False
+    665 │   check_dtype_backend(dtype_backend)
+    666 │   
+  ❱ 667 │   return impl.read(
+    668 │   │   path,
+    669 │   │   columns=columns,
+    670 │   │   filters=filters,
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\pandas\io\parquet.py:274
+  in read
+
+    271 │   │   │   mode="rb",
+    272 │   │   )
+    273 │   │   try:
+  ❱ 274 │   │   │   pa_table = self.api.parquet.read_table(
+    275 │   │   │   │   path_or_handle,
+    276 │   │   │   │   columns=columns,
+    277 │   │   │   │   filesystem=filesystem,
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\pyarrow\parquet\core.py:17
+  74 in read_table
+
+    1771 │   │   │      page_checksum_verification=False):
+    1772 │   
+    1773 │   try:
+  ❱ 1774 │   │   dataset = ParquetDataset(
+    1775 │   │   │   source,
+    1776 │   │   │   schema=schema,
+    1777 │   │   │   filesystem=filesystem,
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\pyarrow\parquet\core.py:13
+  38 in __init__
+
+    1335 │   │   │   │   │   │   │   path_or_paths)
+    1336 │   │   │   │   │   except ValueError:
+    1337 │   │   │   │   │   │   filesystem = LocalFileSystem(use_mmap=memory_map)
+  ❱ 1338 │   │   │   │   finfo = filesystem.get_file_info(path_or_paths)
+    1339 │   │   │   │   if finfo.type == FileType.Directory:
+    1340 │   │   │   │   │   self._base_dir = path_or_paths
+    1341 │   │   │   else:
+
+  in pyarrow._fs.FileSystem.get_file_info:588
+
+  in pyarrow.lib.pyarrow_internal_check_status:155
+
+  in pyarrow.lib.check_status:89
+
+  in pyarrow._fs._cb_get_file_info:1496
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\pyarrow\fs.py:322 in
+  get_file_info
+
+    319 │   │   infos = []
+    320 │   │   for path in paths:
+    321 │   │   │   try:
+  ❱ 322 │   │   │   │   info = self.fs.info(path)
+    323 │   │   │   except FileNotFoundError:
+    324 │   │   │   │   infos.append(FileInfo(path, FileType.NotFound))
+    325 │   │   │   else:
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\fsspec\asyn.py:118 in
+  wrapper
+
+     115 │   @functools.wraps(func)
+     116 │   def wrapper(*args, **kwargs):
+     117 │   │   self = obj or args[0]
+  ❱  118 │   │   return sync(self.loop, func, *args, **kwargs)
+     119 │   
+     120 │   return wrapper
+     121 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\fsspec\asyn.py:103 in sync
+
+     100 │   │   # suppress asyncio.TimeoutError, raise FSTimeoutError
+     101 │   │   raise FSTimeoutError from return_result
+     102 │   elif isinstance(return_result, BaseException):
+  ❱  103 │   │   raise return_result
+     104 │   else:
+     105 │   │   return return_result
+     106 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\fsspec\asyn.py:56 in
+  _runner
+
+      53 │   if timeout is not None:
+      54 │   │   coro = asyncio.wait_for(coro, timeout=timeout)
+      55 │   try:
+  ❱   56 │   │   result[0] = await coro
+      57 │   except Exception as ex:
+      58 │   │   result[0] = ex
+      59 │   finally:
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\s3fs\core.py:1447 in _info
+
+    1444 │   │   │   │   │   return {"name": path, "size": 0, "type": "directory"}
+    1445 │   │   if key:
+    1446 │   │   │   try:
+  ❱ 1447 │   │   │   │   out = await self._call_s3(
+    1448 │   │   │   │   │   "head_object",
+    1449 │   │   │   │   │   self.kwargs,
+    1450 │   │   │   │   │   Bucket=bucket,
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\s3fs\core.py:371 in
+  _call_s3
+
+     368 │   │   kw2.pop("Body", None)
+     369 │   │   logger.debug("CALL: %s - %s - %s", method.__name__, akwarglist, kw2)
+     370 │   │   additional_kwargs = self._get_s3_method_kwargs(method, *akwarglist, *
+  ❱  371 │   │   return await _error_wrapper(
+     372 │   │   │   method, kwargs=additional_kwargs, retries=self.retries
+     373 │   │   )
+     374 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\s3fs\core.py:146 in
+  _error_wrapper
+
+     143 │   │   except Exception as e:
+     144 │   │   │   err = e
+     145 │   err = translate_boto_error(err)
+  ❱  146 │   raise err
+     147 
+     148 
+     149 def version_id_kw(version_id):
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\s3fs\core.py:114 in
+  _error_wrapper
+
+     111 │   │   kwargs = {}
+     112 │   for i in range(retries):
+     113 │   │   try:
+  ❱  114 │   │   │   return await func(*args, **kwargs)
+     115 │   │   except S3_RETRYABLE_ERRORS as e:
+     116 │   │   │   err = e
+     117 │   │   │   logger.debug("Retryable error: %s", e)
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\client.py:394
+  in _make_api_call
+
+    391 │   │   │   │   self.meta.config, request_dict, operation_model
+    392 │   │   │   )
+    393 │   │   │   apply_request_checksum(request_dict)
+  ❱ 394 │   │   │   http, parsed_response = await self._make_request(
+    395 │   │   │   │   operation_model, request_dict, request_context
+    396 │   │   │   )
+    397 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\client.py:420
+  in _make_request
+
+    417 │   │   self, operation_model, request_dict, request_context
+    418 │   ):
+    419 │   │   try:
+  ❱ 420 │   │   │   return await self._endpoint.make_request(
+    421 │   │   │   │   operation_model, request_dict
+    422 │   │   │   )
+    423 │   │   except Exception as e:
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\endpoint.py:11
+  3 in _send_request
+
+    110 │   │   success_response, exception = await self._get_response(
+    111 │   │   │   request, operation_model, context
+    112 │   │   )
+  ❱ 113 │   │   while await self._needs_retry(
+    114 │   │   │   attempts,
+    115 │   │   │   operation_model,
+    116 │   │   │   request_dict,
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\endpoint.py:27
+  3 in _needs_retry
+
+    270 │   ):
+    271 │   │   service_id = operation_model.service_model.service_id.hyphenize()
+    272 │   │   event_name = f"needs-retry.{service_id}.{operation_model.name}"
+  ❱ 273 │   │   responses = await self._event_emitter.emit(
+    274 │   │   │   event_name,
+    275 │   │   │   response=response,
+    276 │   │   │   endpoint=self,
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\hooks.py:68 in
+  _emit
+
+    65 │   │   │   logger.debug('Event %s: calling handler %s', event_name, handler)
+    66 │   │   │   
+    67 │   │   │   # Await the handler if its a coroutine.
+  ❱ 68 │   │   │   response = await resolve_awaitable(handler(**kwargs))
+    69 │   │   │   responses.append((handler, response))
+    70 │   │   │   if stop_on_response and response is not None:
+    71 │   │   │   │   return responses
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\_helpers.py:6
+  in resolve_awaitable
+
+     3 
+     4 async def resolve_awaitable(obj):
+     5 │   if inspect.isawaitable(obj):
+  ❱  6 │   │   return await obj
+     7 │   
+     8 │   return obj
+     9 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\retryhandler.p
+  y:107 in _call
+
+    104 │   │   │   retries_context = kwargs['request_dict']['context'].get('retries')
+    105 │   │   │   checker_kwargs.update({'retries_context': retries_context})
+    106 │   │   
+  ❱ 107 │   │   if await resolve_awaitable(self._checker(**checker_kwargs)):
+    108 │   │   │   result = self._action(attempts=attempts)
+    109 │   │   │   logger.debug("Retry needed, action of: %s", result)
+    110 │   │   │   return result
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\_helpers.py:6
+  in resolve_awaitable
+
+     3 
+     4 async def resolve_awaitable(obj):
+     5 │   if inspect.isawaitable(obj):
+  ❱  6 │   │   return await obj
+     7 │   
+     8 │   return obj
+     9 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\retryhandler.p
+  y:126 in _call
+
+    123 │   │   │   │   retries_context.get('max', 0), self._max_attempts
+    124 │   │   │   )
+    125 │   │   
+  ❱ 126 │   │   should_retry = await self._should_retry(
+    127 │   │   │   attempt_number, response, caught_exception
+    128 │   │   )
+    129 │   │   if should_retry:
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\retryhandler.p
+  y:165 in _should_retry
+
+    162 │   │   else:
+    163 │   │   │   # If we've exceeded the max attempts we just let the exception
+    164 │   │   │   # propagate if one has occurred.
+  ❱ 165 │   │   │   return await resolve_awaitable(
+    166 │   │   │   │   self._checker(attempt_number, response, caught_exception)
+    167 │   │   │   )
+    168 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\_helpers.py:6
+  in resolve_awaitable
+
+     3 
+     4 async def resolve_awaitable(obj):
+     5 │   if inspect.isawaitable(obj):
+  ❱  6 │   │   return await obj
+     7 │   
+     8 │   return obj
+     9 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\retryhandler.p
+  y:174 in _call
+
+    171 │   async def _call(self, attempt_number, response, caught_exception):
+    172 │   │   for checker in self._checkers:
+    173 │   │   │   checker_response = await resolve_awaitable(
+  ❱ 174 │   │   │   │   checker(attempt_number, response, caught_exception)
+    175 │   │   │   )
+    176 │   │   │   if checker_response:
+    177 │   │   │   │   return checker_response
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\botocore\retryhandler.py:2
+  47 in __call__
+
+    244 │   │   if response is not None:
+    245 │   │   │   return self._check_response(attempt_number, response)
+    246 │   │   elif caught_exception is not None:
+  ❱ 247 │   │   │   return self._check_caught_exception(
+    248 │   │   │   │   attempt_number, caught_exception
+    249 │   │   │   )
+    250 │   │   else:
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\botocore\retryhandler.py:4
+  16 in _check_caught_exception
+
+    413 │   │   # caught_exception.  That's what this class is being used for.  If
+    414 │   │   # the MaxAttemptsDecorator is not interested in retrying the exception
+    415 │   │   # then this exception just propagates out past the retry code.
+  ❱ 416 │   │   raise caught_exception
+    417 
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\endpoint.py:19
+  4 in _do_get_response
+
+    191 │   │   │   )
+    192 │   │   │   http_response = first_non_none_response(responses)
+    193 │   │   │   if http_response is None:
+  ❱ 194 │   │   │   │   http_response = await self._send(request)
+    195 │   │   except HTTPClientError as e:
+    196 │   │   │   return (None, e)
+    197 │   │   except Exception as e:
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\endpoint.py:29
+  6 in _send
+
+    293 │   │   │   return True
+    294 │   
+    295 │   async def _send(self, request):
+  ❱ 296 │   │   return await self.http_session.send(request)
+    297 
+    298 
+    299 class AioEndpointCreator(EndpointCreator):
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\aiobotocore\httpsession.py
+  :276 in send
+
+    273 │   │   │   ClientConnectionError,
+    274 │   │   │   socket.gaierror,
+    275 │   │   ) as e:
+  ❱ 276 │   │   │   raise EndpointConnectionError(endpoint_url=request.url, error=e)
+    277 │   │   except asyncio.TimeoutError as e:
+    278 │   │   │   raise ReadTimeoutError(endpoint_url=request.url, error=e)
+    279 │   │   except Exception as e:
+────────────────────────────────────────────────────────────────────────────────────────
+EndpointConnectionError: Could not connect to the endpoint URL:
+"http://lakefsdb:8000/scrape-news/main/scrape-news.parquet"
+2025-05-14 18:46:02.900 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:46:06.358 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:47:12.808 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:47:22.221 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:47:27.676 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:47:28.820 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:47:34.655 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:48:35.137 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+────────────────────────── Traceback (most recent call last) ───────────────────────────
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\pandas\core\indexes\base.p
+  y:3805 in get_loc
+
+    3802 │   │   """
+    3803 │   │   casted_key = self._maybe_cast_indexer(key)
+    3804 │   │   try:
+  ❱ 3805 │   │   │   return self._engine.get_loc(casted_key)
+    3806 │   │   except KeyError as err:
+    3807 │   │   │   if isinstance(casted_key, slice) or (
+    3808 │   │   │   │   isinstance(casted_key, abc.Iterable)
+
+  in pandas._libs.index.IndexEngine.get_loc:167
+
+  in pandas._libs.index.IndexEngine.get_loc:196
+
+  in pandas._libs.hashtable.PyObjectHashTable.get_item:7081
+
+  in pandas._libs.hashtable.PyObjectHashTable.get_item:7089
+────────────────────────────────────────────────────────────────────────────────────────
+KeyError: 'cleaned_title'
+
+The above exception was the direct cause of the following exception:
+
+────────────────────────── Traceback (most recent call last) ───────────────────────────
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\streamlit\runtime\scriptru
+  nner\exec_code.py:121 in exec_func_with_error_handling
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\streamlit\runtime\scriptru
+  nner\script_runner.py:645 in code_to_exec
+
+  C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py:29 in <module>
+
+    26 │   return df
+    27 
+    28 df = read_from_lakefs()
+  ❱ 29 all_text = " ".join(df["cleaned_title"].dropna().astype(str))
+    30 wordcloud = WordCloud(
+    31 │   width=1000,
+    32 │   height=600,
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\pandas\core\frame.py:4102
+  in __getitem__
+
+     4099 │   │   if is_single_key:
+     4100 │   │   │   if self.columns.nlevels > 1:
+     4101 │   │   │   │   return self._getitem_multilevel(key)
+  ❱  4102 │   │   │   indexer = self.columns.get_loc(key)
+     4103 │   │   │   if is_integer(indexer):
+     4104 │   │   │   │   indexer = [indexer]
+     4105 │   │   else:
+
+  C:\Users\DSITU\Desktop\dsi321_2025\venv\Lib\site-packages\pandas\core\indexes\base.p
+  y:3812 in get_loc
+
+    3809 │   │   │   │   and any(isinstance(x, slice) for x in casted_key)
+    3810 │   │   │   ):
+    3811 │   │   │   │   raise InvalidIndexError(key)
+  ❱ 3812 │   │   │   raise KeyError(key) from err
+    3813 │   │   except TypeError:
+    3814 │   │   │   # If we have a listlike key, _check_indexing_error will raise
+    3815 │   │   │   #  InvalidIndexError. Otherwise we fall through and re-raise
+────────────────────────────────────────────────────────────────────────────────────────
+KeyError: 'cleaned_title'
+2025-05-14 18:51:04.248 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:51:04.283 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:51:08.401 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:51:36.200 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:51:38.350 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:51:41.196 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:51:42.382 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:51:42.422 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:51:54.161 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:52:25.127 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:52:28.413 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:53:28.374 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:53:40.201 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:53:45.389 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:53:46.934 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:53:55.828 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:53:59.399 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\DSITU\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+2025-05-14 18:54:27.145 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:54:27.182 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:54:30.226 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:54:54.416 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:54:56.585 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:55:00.405 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:55:03.544 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:55:05.674 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:55:09.913 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:55:14.292 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:55:20.024 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:55:30.627 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+2025-05-14 18:55:34.827 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi32321_2025\streamlit.py
+2025-05-14 18:55:34.858 Received event for non-watched file: C:\Users\DSITU\Desktop\dsi321_2025\streamlit.py
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\DSITU\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\DSITU\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+
+
+
+
+

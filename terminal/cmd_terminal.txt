@@ -1,0 +1,535 @@
+4a0fqmi1hse0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hseg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsf0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsfg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsg0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsgg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsh0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hshg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsi0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsig
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsj0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsjg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsk0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hskg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsl0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hslg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsm0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsmg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsn0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsng
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hso0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsog
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsp0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hspg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsq0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsqg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsr0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsrg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hss0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hssg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hst0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hstg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsu0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsug
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsv0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hsvg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht00
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht0g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht10
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht1g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht20
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht2g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht30
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht3g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht40
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht4g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht50
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht5g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht60
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht6g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht70
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht7g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht80
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht8g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht90
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1ht9g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hta0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htag
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htb0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htbg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htc0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htcg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htd0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htdg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hte0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hteg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htf0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htfg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htg0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1htgg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g3l34a0fqmi1hth0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hthg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hti0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htig
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htj0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htjg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htk0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htkg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htl0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htlg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htm0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htmg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htn0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htng
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hto0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htog
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htp0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htpg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htq0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htqg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htr0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htrg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hts0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htsg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htt0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1httg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htu0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htug
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htv0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1htvg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu00
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu0g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu10
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu1g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu20
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu2g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu30
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu3g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu40
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu4g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu50
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu5g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu60
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu6g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g4d34a0fqmi1hu70
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hu7g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hu80
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hu8g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hu90
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hu9g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hua0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huag
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hub0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hubg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huc0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hucg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hud0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hudg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hue0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hueg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huf0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hufg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hug0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hugg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huh0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huhg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hui0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huig
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huj0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hujg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huk0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hukg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hul0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hulg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hum0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1humg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hun0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hung
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huo0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huog
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hup0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hupg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huq0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1huqg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hur0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hurg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5534a0fqmi1hus0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1husg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hut0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hutg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1huu0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1huug
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1huv0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1huvg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv00
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv0g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv10
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv1g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv20
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv2g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv30
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv3g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv40
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv4g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv50
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv5g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv60
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv6g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv70
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv7g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv80
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv8g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv90
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hv9g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hva0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvag
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvb0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvbg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvc0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvcg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvd0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvdg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hve0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hveg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvf0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvfg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvg0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvgg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvh0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvhg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvi0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvig
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvj0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvjg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvk0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvkg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvl0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvlg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvm0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvmg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvn0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvng
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvo0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvog
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvp0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvpg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvq0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvqg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvr0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvrg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvs0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvsg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvt0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvtg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvu0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvug
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvv0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1hvvg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1i000
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1i00g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1i010
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1i01g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1i020
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1i02g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g5t34a0fqmi1i030
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i03g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i040
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i04g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i050
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i05g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i060
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i06g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i070
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i07g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i080
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i08g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i090
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i09g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0a0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0ag
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0b0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0bg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0c0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0cg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0d0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0dg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0e0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0eg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0f0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0fg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0g0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0gg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0h0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0hg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0i0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0ig
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0j0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0jg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0k0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0kg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0l0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0lg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0m0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0mg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0n0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0ng
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0o0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0og
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0p0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0pg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0q0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0qg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0r0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0rg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0s0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0sg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0t0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0tg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0u0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0ug
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g6t34a0fqmi1i0v0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i0vg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i100
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i10g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i110
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i11g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i120
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i12g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i130
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i13g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i140
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i14g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i150
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i15g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i160
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i16g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i170
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i17g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i180
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i18g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i190
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i19g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1a0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1ag
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1b0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1bg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1c0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1cg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1d0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1dg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1e0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1eg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1f0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1fg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1g0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1gg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7534a0fqmi1i1h0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1hg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1i0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1ig
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1j0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1jg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1k0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1kg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1l0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1lg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1m0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1mg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1n0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1ng
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1o0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1og
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1p0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1pg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1q0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1qg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1r0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1rg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1s0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1sg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1t0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1tg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1u0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1ug
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1v0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i1vg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i200
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i20g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i210
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i21g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i220
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i22g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i230
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i23g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i240
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i24g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i250
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i25g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i260
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i26g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i270
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i27g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i280
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i28g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i290
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i29g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2a0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2ag
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2b0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2bg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2c0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2cg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2d0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2dg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2e0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2eg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g7t34a0fqmi1i2f0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g8534a0fqmi1i2fg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g8534a0fqmi1i2g0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g8534a0fqmi1i2gg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g8534a0fqmi1i2h0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2hg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2i0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2ig
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2j0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2jg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2k0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2kg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2l0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2lg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2m0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2mg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2n0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9534a0fqmi1i2ng
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2o0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2og
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2p0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2pg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2q0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2qg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2r0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2rg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2s0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2sg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2t0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2tg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2u0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2ug
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2v0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i2vg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i300
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i30g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i310
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i31g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i320
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i32g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i330
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i33g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i340
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i34g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i350
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i35g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i360
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i36g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i370
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i37g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i380
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i38g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i390
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i39g
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3a0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3ag
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3b0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3bg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3c0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3cg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3d0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3dg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3e0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3eg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3f0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3fg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3g0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3gg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3h0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3hg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3i0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3ig
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3j0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3jg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3k0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8g9d34a0fqmi1i3kg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8i1l34a0fqmi1i3l0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8i1l34a0fqmi1i3lg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8i1l34a0fqmi1i3m0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8ks534a0fqmi1i3mg
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8ks534a0fqmi1i3n0
+        new file:   data/lakefs/data/block/scrape-news/data/g8l884534a0fqmi1hr1g/d0i8ks534a0fqmi1i3ng
+        new file:   data/lakefs/metadata/000001.vlog
+        new file:   data/lakefs/metadata/00001.mem
+        new file:   data/lakefs/metadata/DISCARD
+        new file:   data/lakefs/metadata/KEYREGISTRY
+        new file:   data/lakefs/metadata/LOCK
+        new file:   data/lakefs/metadata/MANIFEST
+        modified:   docker-compose.yml
+        modified:   main.py
+        new file:   main_2.py
+        new file:   main_bamball.py
+        modified:   requirements.txt
+        new file:   streamlit.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>git restore
+fatal: you must specify path(s) to restore
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>git restore --staged <filename>
+The syntax of the command is incorrect.
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>git restore --staged <filename>
+The syntax of the command is incorrect.
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>git restore --staged data/*    
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Dockerfile.cli
+        modified:   docker-compose.yml
+        modified:   main.py
+        new file:   main_2.py
+        new file:   main_bamball.py
+        modified:   requirements.txt
+        new file:   streamlit.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>git commit -m "change everything"
+[main 6f2603a] change everything
+ 7 files changed, 471 insertions(+), 33 deletions(-)
+ create mode 100644 main_2.py
+ create mode 100644 main_bamball.py
+ create mode 100644 streamlit.py
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>git push
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 3.83 KiB | 1.28 MiB/s, done.
+Total 8 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), completed with 5 local objects.
+To https://github.com/dezembor/dsi321_2025.git
+   bb61dee..6f2603a  main -> main
+
+(venv) C:\Users\DSITU\Desktop\dsi321_2025>
