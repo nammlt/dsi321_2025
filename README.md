@@ -77,23 +77,29 @@ This project includes a data pipeline to collect news via RSS feeds, store them,
 ```bash
 git clone https://github.com/yourusername/dsi321.git
 cd dsi321
+```
 
 2. Start services
 ```bash 
 docker compose --profile server up -d
+```
 
 3. Start the Prefect Worker
 ```bash
 docker compose --profile worker up -d
+```
 
 4. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 5. Run the scraper flow
 ```bash
 python main.py
+```
 
 6. Run the Streamlit web app
 ```bash
 streamlit run app.py
+```
