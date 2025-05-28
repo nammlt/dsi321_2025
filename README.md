@@ -30,8 +30,8 @@ DSI321/
 ## Project Objective
 To build a robust and scalable news scraping pipeline that helps track emerging trends in construction materials, particularly sustainable and alternative technologies. The output can help inform decisions in construction R&D, procurement, and material sourcing.
 
-## 📊 Dataset Description
-- >1,000 records collected
+## Dataset Description
+- ≥1,000 records collected
 - Covers 24 hours using multiple keywords (e.g., "green building materials", "supply chain construction")
 - 90%+ completeness
 - Duplicates and object-type columns removed
@@ -48,7 +48,7 @@ Schema sample:
 3. Fetch RSS by keyword
 4. Append to CSV
 
-## Visualization (ตามรายวิชา DSI324)
+## Visualization (DSI324)
 - Wordcloud
 
 ## Machine Learning Analysis
@@ -65,8 +65,35 @@ Schema sample:
 | Week 5  | Visualization + ML (Linear Regression) + final report |
 
 ## How to Run the Project
+This project includes a data pipeline to collect news via RSS feeds, store them, and visualize them with a Streamlit web app. It uses Docker, Prefect, and optionally LakeFS for versioned data.
+
+### Prerequisites
+- Docker and Docker Compose installed
+- Python 3.13 (for local runs without Docker)
+- poetry or pip (if running Python manually)
+- Internet access (to fetch news via RSS)
+
+1. Clone the repository
 ```bash
-git clone ...
-docker compose up --build
+git clone https://github.com/yourusername/dsi321.git
+cd dsi321
 
+2. Start services
+```bash 
+docker compose --profile server up -d
 
+3. Start the Prefect Worker
+```bash
+docker compose --profile worker up -d
+
+4. Install dependencies
+```bash
+pip install -r requirements.txt
+
+5. Run the scraper flow
+```bash
+python main.py
+
+6. Run the Streamlit web app
+```bash
+streamlit run app.py
