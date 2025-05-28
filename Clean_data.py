@@ -9,7 +9,7 @@ stop_words = set(stopwords.words('english'))
 
 # custom stopwords
 custom_stopwords = {
-    # ข่าวและสื่อ
+    # News
     "news", "update", "latest", "breaking", "read", "watch", "live", "video",
     "media", "outlet", "journal", "articles", "headline", "source", "coverage", "information",
     "say", "says", "said", "report", "reports", "reported",
