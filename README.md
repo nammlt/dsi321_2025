@@ -50,10 +50,32 @@ Schema sample:
 4. Append to CSV
 
 ## Visualization (DSI324)
-- Wordcloud
+This project includes a visualization component aligned with the DSI324 course, specifically focused on textual data from news headlines. The main visualization method implemented is:
+
+### Word Cloud
+A Word Cloud is used to display the most frequently occurring words in the news article titles collected from various RSS feeds. The larger the word appears, the more often it occurs in the dataset. This provides a quick and intuitive understanding of the major themes or trending topics within the news.
+
+- Stopwords (common words like “the”, “and”, etc.) are removed for clarity.
+- The text is preprocessed using tokenization and normalization techniques before generating the Word Cloud.
+- This visualization helps in identifying emerging trends or hot topics related to alternative construction materials.
+
+>You can view the Word Cloud in real time via the Streamlit app (app.py).
+![Alt Text](https://media.discordapp.net/attachments/1146464256368328754/1376849494443823114/Screenshot_2568-05-27_at_13.53.24.png?ex=68377b44&is=683629c4&hm=ab2ec26f15f6894136dde8893eb3df67d1913837438e523e10a3d1e669e20e31&=&format=webp&quality=lossless&width=1544&height=800)
 
 ## Machine Learning Analysis
-- Topic Modeling
+### Topic Modeling
+Topic Modeling is an unsupervised machine learning technique used to discover abstract topics within a collection of text data. In this project, we applied Latent Dirichlet Allocation (LDA) to analyze the titles of news articles collected from Google News RSS feeds.
+
+The goal is to uncover the main themes or discussion topics that are trending across different construction-related keywords, such as "sustainable construction", "material shortage", and "green building materials."
+
+The process involves
+- Text preprocessing: Removing stopwords, punctuation, and applying text normalization.
+- Vectorization: Transforming the cleaned text into a numerical representation using a bag-of-words approach.
+- LDA Modeling: Fitting the model to uncover a predefined number of latent topics from the article titles.
+- Visualization: Displaying the results in a table to show topic keywords and article distributions.
+
+This analysis helps identify patterns and emerging trends in the construction industry from news data, enabling better insight generation for decision-makers or researchers.
+
 
 ## Weekly Plan and Milestones
 | Week | Task |
@@ -105,7 +127,7 @@ python main.py
 streamlit run app.py
 ```
 ## Related Courses
-DSI321 – BIG DATA INFRASTRUCTURE
+DSI321 – BIG DATA INFRASTRUCTURE\\
 DSI324 – PRACTICAL DATA GOVERNANCE PROJECT
 
 ## Author
