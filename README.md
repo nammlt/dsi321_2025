@@ -12,13 +12,14 @@ DSI321/
 ├── Dockerfile.cli              # Dockerfile for Prefect Worker and CLI customization
 ├── docker-compose.yml          # Docker Compose file for running services (Prefect, PostgreSQL, etc.)
 ├── main.py                     # Main script for scraping news using Prefect flow (manual run version)
-├── app.py                   # Streamlit app to visualize Word Cloud and Topic Modeling
+├── app.py                      # Streamlit app to visualize Word Cloud and Topic Modeling
 ├── config_path.py              # Configuration file for paths and constants
 ├── requirements.txt            # Python dependencies required for the project
 ├── pyproject.toml              # Project configuration (for Poetry or other build systems)
 ├── data/                       # Folder containing collected data
 │   └── scrap_data.csv          # Collected news articles from Google News RSS
 └── README.md                   # This file - documentation of the project
+```
 
 ## Technologies Used
 - Python 3.13
