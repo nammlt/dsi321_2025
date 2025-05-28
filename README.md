@@ -59,7 +59,8 @@ A Word Cloud is used to display the most frequently occurring words in the news 
 - The text is preprocessed using tokenization and normalization techniques before generating the Word Cloud.
 - This visualization helps in identifying emerging trends or hot topics related to alternative construction materials.
 
->You can view the Word Cloud and table of dataset in real time via the Streamlit app (app.py).
+>You can view the Word Cloud and table of dataset in real time via the Streamlit app (app.py).<
+
 ![Alt Text](https://media.discordapp.net/attachments/1146464256368328754/1376849494443823114/Screenshot_2568-05-27_at_13.53.24.png?ex=68377b44&is=683629c4&hm=ab2ec26f15f6894136dde8893eb3df67d1913837438e523e10a3d1e669e20e31&=&format=webp&quality=lossless&width=1544&height=800)
 ![Alt Text](https://media.discordapp.net/attachments/1146464256368328754/1376849551922696242/Screenshot_2568-05-27_at_13.53.50.png?ex=68377b51&is=683629d1&hm=d69beb1287a7c167d563c89077e14c1839ca4cc47c2185580623fe3be398dce9&=&format=webp&quality=lossless&width=1240&height=833)
 
@@ -127,7 +128,8 @@ python main.py
 streamlit run app.py
 ```
 ## Related Courses
-DSI321 – BIG DATA INFRASTRUCTURE//
+DSI321 – BIG DATA INFRASTRUCTURE
+
 DSI324 – PRACTICAL DATA GOVERNANCE PROJECT
 
 ## Author
