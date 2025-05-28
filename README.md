@@ -7,8 +7,17 @@ This repository contains a Prefect-based ETL pipeline that scrapes real-time Goo
 This project was developed as part of the DSI321 coursework and is designed to fulfill all technical and reporting requirements outlined in the assessment criteria.
 
 ## Repository Structure
-```text DSI321/ ├── Dockerfile.cli # Dockerfile for Prefect Worker and CLI customization ├── docker-compose.yml # Docker Compose file for running services (Prefect, PostgreSQL, etc.) ├── main.py # Main script for scraping news using Prefect flow (manual run version) ├── deploy.py # Show realtime data, visualize wordcloud and table of topic modeling on Streamlit ├── config_path.py # Configuration file for paths and constants ├── requirements.txt # Python dependencies required for the project ├── pyproject.toml # Project configuration (for build systems like Poetry) ├── data/ # Directory for storing collected data │ └── scrap_data.csv # Collected news articles from Google News RSS └── README.md # Documentation file describing the project (this file) ```
-
+DSI321:.
+ª   Dockerfile.cli               # Dockerfile for Prefect Worker and CLI customization
+ª   docker-compose.yml           # Docker Compose file for running services (Prefect, PostgreSQL, etc.)
+ª   main.py
+ª   app.py                   
+ª   config_path.py
+ª   requirements.txt            
+ª   pyproject.toml              
++---data
+ª       scrap_data.csv
+ª   README.md
 
 ## Technologies Used
 - Python 3.13
