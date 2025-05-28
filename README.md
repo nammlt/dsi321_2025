@@ -7,17 +7,7 @@ This repository contains a Prefect-based ETL pipeline that scrapes real-time Goo
 This project was developed as part of the DSI321 coursework and is designed to fulfill all technical and reporting requirements outlined in the assessment criteria.
 
 ## Repository Structure
-DSI321/
-├── Dockerfile.cli              # Dockerfile for Prefect Worker and CLI customization
-├── docker-compose.yml          # Docker Compose file for running services (Prefect, PostgreSQL, etc.)
-├── main.py                     # Main script for scraping news using Prefect flow (manual run version)
-├── deploy.py                   # Show realtime data, visualize wordcloud and table of topic modeling on Streamlit
-├── config_path.py              # Configuration file for paths and constants
-├── requirements.txt            # Python dependencies required for the project
-├── pyproject.toml              # Project configuration (for build systems like Poetry)
-├── data/                       # Directory for storing collected data
-│   └── scrap_data.csv          # Collected news articles from Google News RSS
-└── README.md                   # Documentation file describing the project (this file)
+<pre><code>```text DSI321/ ├── Dockerfile.cli # Dockerfile for Prefect Worker and CLI customization ├── docker-compose.yml # Docker Compose file for running services (Prefect, PostgreSQL, etc.) ├── main.py # Main script for scraping news using Prefect flow (manual run version) ├── deploy.py # Show realtime data, visualize wordcloud and table of topic modeling on Streamlit ├── config_path.py # Configuration file for paths and constants ├── requirements.txt # Python dependencies required for the project ├── pyproject.toml # Project configuration (for build systems like Poetry) ├── data/ # Directory for storing collected data │ └── scrap_data.csv # Collected news articles from Google News RSS └── README.md # Documentation file describing the project (this file) ```</code></pre>
 
 
 ## Technologies Used
@@ -103,3 +93,10 @@ python main.py
 ```bash
 streamlit run app.py
 ```
+## Related Courses
+DSI321 – BIG DATA INFRASTRUCTURE
+DSI324 – PRACTICAL DATA GOVERNANCE PROJECT
+
+## Author
+Kodchaporn Sittiphaisal
+3rd Year | BSc Data Science and Innovation | Thammasat University
